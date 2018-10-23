@@ -15,8 +15,6 @@ MONGOD_BIN = 'mongod'
 DEFAULT_ARGS = [
     # don't flood stdout, we're not reading it
     "--quiet",
-    # save the port
-    "--nohttpinterface",
     # disable unused.
     "--nounixsocket",
     # use a smaller default file size
